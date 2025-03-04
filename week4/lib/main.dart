@@ -8,7 +8,7 @@ void main() {
 
   // 1 - Initialize the services
   RidePrefService.initialize(MockRidePreferencesRepository());
-
+  
   // 2- Run the UI
   runApp(const MyApp());
 }

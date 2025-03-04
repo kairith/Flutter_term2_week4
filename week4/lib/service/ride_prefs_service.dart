@@ -10,7 +10,7 @@ import '../repository/ride_preferences_repository.dart';
 ///
 class RidePrefService {
   // Static private instance
-  static RidePrefService? _instance;
+  static RidePrefService? _instance; 
 
   // Access to past preferences
   final RidePreferencesRepository repository;
