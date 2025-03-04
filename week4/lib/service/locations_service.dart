@@ -7,6 +7,7 @@ import '../dummy_data/dummy_data.dart';
 ///   This service handles:
 ///   - The list of available rides
 ///
+// BLA-101 – Refactor Location Service done
 import '../repository/locations_repository.dart';
 class LocationsService {
   static final LocationsService _instance =
